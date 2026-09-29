@@ -3,10 +3,17 @@
 ## Organizational / Canonical
 | Repository | Purpose |
 |------------|--------|
-| `rootrecordsoftwaresolutions/Solar-Pacific-RootRecord-Server` | Primary skills, automations, agents, energy, desk |
+| `RootRecord-Software-Solutions/RootRecord-Pacific-Solar-Server` | **Primary Pacific desk runtime** — Automations, Communications, Energy, System, Reports, A-Eyes, … |
+| `RootRecord-Software-Solutions/RootRecord-Library` | Durable knowledge, agent context packs, work orders, architecture |
 | `rootrecordsoftwaresolutions/US-Mainland-Server` | Secondary / recovery infrastructure node |
 | `rootrecordsoftwaresolutions/RootRecord-Website` | Public Next.js foundation |
 | `rootrecordsoftwaresolutions/RootRecord-Weather-Database` | Hawaiʻi weather data & media |
+
+## Legacy (superseded for Pacific runtime)
+| Repository | Notes |
+|------------|--------|
+| `rootrecordsoftwaresolutions/Solar-Pacific-RootRecord-Server` | G2 residual skills tree — **not** the production poller host |
+| `rootrecordsoftwaresolutions/Solar-Pacific-RootRecord-Server-Old` | G1 archive |
 
 ## Product Surface (RootRecord account)
 | Repository | Purpose |
@@ -18,5 +25,8 @@
 ## Ava Identity
 | Repository | Purpose |
 |------------|--------|
-| `AvaIvy/Agent-Context` | This repository — durable identity & policy |
+| `AvaIvy/AvaIvy-Agent-Context` | This repository — identity & policy (mirrored into Library `Agent Context/Ava-Agent-Context/`) |
 | Ava Ivy Cloud (avaivy.cloud) | Public chat / identity surface |
+
+**Canonical agent pack home:** Library `Agent Context/Ava-Agent-Context/`  
+**Migration docs entry:** Library `Documentation/00-architecture/MIGRATION-DOCS-INDEX-2026-09-28.md`
